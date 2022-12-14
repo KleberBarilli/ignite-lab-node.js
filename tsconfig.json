@@ -12,6 +12,7 @@
     "baseUrl": "./",
     "strict": true,
     "strictNullChecks": true,
+    "strictPropertyInitialization": false,
     "incremental": true,
     "skipLibCheck": true,
     "noImplicitAny": false,
