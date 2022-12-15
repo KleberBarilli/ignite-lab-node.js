@@ -19,11 +19,12 @@
     "strictBindCallApply": false,
     "forceConsistentCasingInFileNames": false,
     "noFallthroughCasesInSwitch": false,
+    "resolveJsonModule": true,
     "paths": {
       "@app/*":["./src/app/*"],
       "@helpers/*":["./src/helpers/*"],
       "@infra/*":["./src/infra/*"],
-      "@fakes/*":["./src/app/repositories/fakes/*"],
+      "@fakes/*":["./src/app/repositories/fakes/*"]
     }
   }
 }
