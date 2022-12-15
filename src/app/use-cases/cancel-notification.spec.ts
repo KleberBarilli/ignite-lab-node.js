@@ -1,7 +1,7 @@
 import { Content } from "@app/entities/content";
 import { Notification } from "@app/entities/notification";
 import { InMemoryNotificationsRepository } from "../repositories/fakes/in-memory-notifications-repository";
-import { CancelNotification } from "./cancel-notificatIon";
+import { CancelNotification } from "./cancel-notification";
 import { NotificationNotFound } from "./errors/notification-not-found";
 
 describe("Cancel Notification", () => {
