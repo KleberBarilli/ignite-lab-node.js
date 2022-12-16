@@ -50,6 +50,9 @@ export class Notification {
   public read() {
     this.data.readAt = new Date();
   }
+  public unRead() {
+    this.data.readAt = null;
+  }
 
   public get canceledAt(): Date | null | undefined {
     return this.data.canceledAt;
