@@ -50,7 +50,7 @@ export class Notification {
   public read() {
     this.data.readAt = new Date();
   }
-  public unRead() {
+  public unread() {
     this.data.readAt = null;
   }
 
