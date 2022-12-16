@@ -15,8 +15,8 @@ export class Notification {
   private _id: string;
   private data: INotification;
 
-  constructor(data: Replace<INotification, { createdAt?: Date }>) {
-    this._id = randomUUID();
+  constructor(data: Replace<INotification, { createdAt?: Date }>, id?: string) {
+    this._id = id ?? randomUUID();
     this.data = { ...data, createdAt: data.createdAt ?? new Date() };
   }
   public get id(): string {
